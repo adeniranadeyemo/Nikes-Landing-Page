@@ -1,0 +1,167 @@
+*{
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body{
+  background: #fff;
+  padding: 0px 20px 10px 20px;
+}
+
+nav{
+  font-family: 'Campton', 'Montserrat', sans-serif;
+  font-size: 10px;
+  display: flex;
+  justify-content: space-between;
+  background: #f2f2f2;
+  margin: 0px -20px 0px -20px;
+  padding: 10px 40px;
+}
+
+.navul{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+nav a{
+  text-decoration: none;
+}
+
+li{
+  list-style: none;
+  margin-left: 20px;
+}
+
+nav img{
+  height: 14px;
+  width: 14px;
+}
+
+.newrel{
+  display: flex;
+  justify-content: space-between;
+  padding: 10px 20px;
+  font-family: 'Campton', 'Montserrat', sans-serif;
+  font-size: 15px;
+}
+
+.nikelogo{
+  height: 20px;
+  width: 45px;
+}
+
+.newrelul{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 7px 0px 0px 150px;
+}
+
+.topicons{
+  display: flex;
+}
+
+input{
+  height: 30px;
+  border: none;
+  width: 130px;
+  background: #f2f2f2;
+  border-radius: 20px;
+  position: relative;
+}
+
+.search{
+  position: absolute;
+  height: 17px;
+  width: 17px;
+  margin: 7px 0px 0px 7px;
+}
+
+.heart, .bag{
+  height: 17px;
+  width: 17px;
+  margin: 7px 0px 0px 20px;
+}
+
+.landed{
+  font-family: 'Campton', 'Montserrat', sans-serif;
+  background: #f2f2f2;
+  color: #000;
+  font-size: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 45px;
+  margin: 0px -20px 0px -20px;
+}
+
+.landed a{
+  color: #000;
+}
+
+.nikerunners{
+  width: 1450px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.firstaccess{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 50px;
+}
+
+.accesspeg{
+  text-align: center;
+}
+
+.accesspeg p{
+  font-family: 'Campton', 'Montserrat', sans-serif;
+  font-size: 15px;
+}
+
+h2{
+  font-family: 'Anton', 'Bebas Neue', sans-serif;
+  font-size: 4em;
+  line-height: 62px;
+  margin-top: 5px;
+}
+
+.firstbtns{
+  margin-top: 30px;
+}
+
+button{
+  border: none;
+  background: #000;
+  color: #fff;
+  border-radius: 30px;
+  padding: 10px 20px;
+  margin-right: 5px;
+}
+
+main{
+  margin-top: 70px;
+}
+
+.gear{
+  display: flex;
+  justify-content: space-between;
+  padding: 0px 15px;
+}
+
+.gear p{
+  font-family: 'Campton', 'Montserrat', sans-serif;
+  font-size: 20px;
+}
+
+.fandbbtns img{
+  border-radius: 100%;
+  background: #f2f2f2;
+  padding: 15px 20px;
+}
