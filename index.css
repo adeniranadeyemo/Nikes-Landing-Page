@@ -16,7 +16,7 @@ nav{
   justify-content: space-between;
   background: #f2f2f2;
   margin: 0px -20px 0px -20px;
-  padding: 10px 40px;
+  padding: 10px 30px;
 }
 
 .navul{
@@ -42,7 +42,7 @@ nav img{
 .newrel{
   display: flex;
   justify-content: space-between;
-  padding: 10px 20px;
+  padding: 10px;
   font-family: 'Campton', 'Montserrat', sans-serif;
   font-size: 15px;
 }
@@ -102,7 +102,8 @@ input{
 }
 
 .nikerunners{
-  width: 1450px;
+  width: 100%;
+  /* object-fit: contain; */
   display: block;
   margin-left: auto;
   margin-right: auto;
@@ -152,16 +153,53 @@ main{
 .gear{
   display: flex;
   justify-content: space-between;
-  padding: 0px 15px;
+  padding: 0px 13px;
 }
 
 .gear p{
   font-family: 'Campton', 'Montserrat', sans-serif;
-  font-size: 20px;
+  font-size: 17px;
 }
 
 .fandbbtns img{
   border-radius: 100%;
   background: #f2f2f2;
   padding: 15px 20px;
+}
+
+.nshoes1row{
+  display: flex;
+  gap: 10px;
+  margin-top: 10px;
+  overflow-x: hidden;
+  padding: 10px;
+}
+
+.nshoe img{
+  background: #f2f2f2;
+}
+
+.nshoe img{
+  height: 29em;
+}
+
+figcaption {
+  margin-top: 15px;
+  display: flex;
+  flex-wrap: wrap;
+  font-family: 'Campton', 'Montserrat', sans-serif;
+  font-size: 11px;
+}
+
+figcaption p:first-of-type{
+  display: block;
+}
+
+figcaption p:last-of-type{
+  color: grey;
+  margin-top: 5px;
+}
+
+figcaption span{
+  margin-left: 193px;
 }
