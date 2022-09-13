@@ -6,23 +6,24 @@
 
 body{
   background: #fff;
-  padding: 0px 20px 10px 20px;
+  padding: 0px 40px 10px 40px;
 }
 
 nav{
   font-family: 'Campton', 'Montserrat', sans-serif;
-  font-size: 10px;
+  font-size: 13px;
   display: flex;
   justify-content: space-between;
   background: #f2f2f2;
-  margin: 0px -20px 0px -20px;
-  padding: 10px 30px;
+  margin: 0px -40px 0px -40px;
+  padding: 15px 60px;
 }
 
 .navul{
   display: flex;
   justify-content: center;
   align-items: center;
+  margin-right: -5px;
 }
 
 nav a{
@@ -37,19 +38,20 @@ li{
 nav img{
   height: 14px;
   width: 14px;
+  margin-left: -7px;
 }
 
 .newrel{
   display: flex;
   justify-content: space-between;
-  padding: 10px;
+  padding: 20px 10px;
   font-family: 'Campton', 'Montserrat', sans-serif;
   font-size: 15px;
 }
 
 .nikelogo{
   height: 20px;
-  width: 45px;
+  width: 50px;
 }
 
 .newrelul{
@@ -93,8 +95,8 @@ input{
   display: flex;
   justify-content: center;
   align-items: center;
-  height: 45px;
-  margin: 0px -20px 0px -20px;
+  padding: 25px 0px;
+  margin: 0px -40px 0px -40px;
 }
 
 .landed a{
@@ -103,10 +105,11 @@ input{
 
 .nikerunners{
   width: 100%;
-  /* object-fit: contain; */
   display: block;
   margin-left: auto;
   margin-right: auto;
+  padding-left: 15px;
+  padding-right: 15px;
 }
 
 .firstaccess{
@@ -158,7 +161,8 @@ main{
 
 .gear p{
   font-family: 'Campton', 'Montserrat', sans-serif;
-  font-size: 17px;
+  font-weight: 500;
+  font-size: 20px;
 }
 
 .fandbbtns img{
@@ -169,10 +173,11 @@ main{
 
 .nshoes1row{
   display: flex;
-  gap: 10px;
+  gap: 13px;
   margin-top: 10px;
+  margin-right: -20px;
   overflow-x: hidden;
-  padding: 10px;
+  padding: 0px 0px 0px 10px;
 }
 
 .nshoe img{
@@ -186,20 +191,57 @@ main{
 figcaption {
   margin-top: 15px;
   display: flex;
-  flex-wrap: wrap;
+  flex-direction: column;
   font-family: 'Campton', 'Montserrat', sans-serif;
   font-size: 11px;
+}
+
+figcaption div{
+  display: flex;
+  justify-content: space-between;
 }
 
 figcaption p:first-of-type{
   display: block;
 }
 
-figcaption p:last-of-type{
+figcaption > p{
   color: grey;
-  margin-top: 5px;
+  margin-top: -5px;
 }
 
-figcaption span{
-  margin-left: 193px;
+.tailored{
+  font-family: 'Campton', 'Montserrat', sans-serif;
+  width: 100%;
+  margin-right: auto;
+  margin-left: auto;
+  margin-top: 100px;
+  padding: 0px 8px;
+}
+
+.tailored > p{
+  font-weight: 500;
+  font-size: 20px;
+}
+
+.tailored-img{
+  display: flex;
+  justify-content: space-between;
+  gap: 10px;
+  margin-top: 30px;
+}
+
+.tailored-img > img{
+  width: 50%
+}
+
+.tailored-imgs{
+  display: flex;
+  flex-direction: column;
+  width: 50%;
+  gap: 10px;
+}
+
+.tailored-imgs img{
+  height: 100%;
 }
