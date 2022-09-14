@@ -163,6 +163,7 @@ main{
   font-family: 'Campton', 'Montserrat', sans-serif;
   font-weight: 500;
   font-size: 20px;
+  margin-left: 2px;
 }
 
 .fandbbtns img{
@@ -171,13 +172,13 @@ main{
   padding: 15px 20px;
 }
 
-.nshoes1row{
+.nshoesrow{
   display: flex;
   gap: 13px;
   margin-top: 10px;
   margin-right: -20px;
   overflow-x: hidden;
-  padding: 0px 0px 0px 10px;
+  padding: 0px 0px 0px 15px;
 }
 
 .nshoe img{
@@ -212,11 +213,11 @@ figcaption > p{
 
 .tailored{
   font-family: 'Campton', 'Montserrat', sans-serif;
-  width: 100%;
   margin-right: auto;
   margin-left: auto;
   margin-top: 100px;
-  padding: 0px 8px;
+  padding-left: 15px;
+  /* padding-right: 0px; */
 }
 
 .tailored > p{
@@ -224,15 +225,11 @@ figcaption > p{
   font-size: 20px;
 }
 
-.tailored-img{
+.bpeople{
   display: flex;
-  justify-content: space-between;
-  gap: 10px;
+  /* justify-content: space-between; */
+  gap: 15px;
   margin-top: 30px;
-}
-
-.tailored-img > img{
-  width: 50%
 }
 
 .tailored-imgs{
@@ -242,6 +239,31 @@ figcaption > p{
   gap: 10px;
 }
 
-.tailored-imgs img{
+.bperson{
+  position: relative;
+}
+
+.bperson img{
+  width: 100%;
   height: 100%;
+}
+
+.bperson p{
+  position: absolute;
+  bottom: 117px;
+  left: 45px;
+  color: #fff;
+}
+
+.bperson button{
+  position: absolute;
+  left: 45px;
+  bottom: 47px;
+  background: #fff;
+  color: #000;
+  font-size: 17px;
+}
+
+.trending{
+  margin-top: 100px;
 }
