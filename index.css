@@ -72,6 +72,12 @@ input{
   background: #f2f2f2;
   border-radius: 20px;
   position: relative;
+  padding-left: 30px;
+  padding-top: 2px;
+}
+
+input[type="text"]::placeholder{
+  color: #ddd;
 }
 
 .search{
@@ -108,8 +114,8 @@ input{
   display: block;
   margin-left: auto;
   margin-right: auto;
-  padding-left: 15px;
-  padding-right: 15px;
+  padding-left: 10px;
+  padding-right: 10px;
 }
 
 .firstaccess{
