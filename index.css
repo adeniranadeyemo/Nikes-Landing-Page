@@ -58,6 +58,7 @@ nav img{
   display: flex;
   justify-content: center;
   align-items: center;
+  text-align: center;
   margin: 7px 0px 0px 150px;
 }
 
@@ -168,7 +169,7 @@ main{
 .gear p{
   font-family: 'Campton', 'Montserrat', sans-serif;
   font-weight: 500;
-  font-size: 20px;
+  font-size: 23px;
   margin-left: 2px;
 }
 
@@ -176,6 +177,7 @@ main{
   border-radius: 100%;
   background: #f2f2f2;
   padding: 15px 20px;
+  margin-left: 10px;
 }
 
 .nshoesrow{
@@ -223,30 +225,31 @@ figcaption > p{
   margin-left: auto;
   margin-top: 100px;
   padding-left: 15px;
-  /* padding-right: 0px; */
 }
 
 .tailored > p{
   font-weight: 500;
-  font-size: 20px;
+  font-size: 23px;
 }
 
 .bpeople{
   display: flex;
-  /* justify-content: space-between; */
-  gap: 15px;
+  gap: 10px;
+  width: 100%;
   margin-top: 30px;
 }
 
 .tailored-imgs{
   display: flex;
   flex-direction: column;
-  width: 50%;
-  gap: 10px;
+  width: 100%;
+  gap: 15px;
+  padding-right: 10px;
 }
 
 .bperson{
   position: relative;
+  width: 100%;
 }
 
 .bperson img{
@@ -272,4 +275,24 @@ figcaption > p{
 
 .trending{
   margin-top: 100px;
+}
+
+.dontmiss{
+  margin-top: 150px;
+  font-family: 'Campton', 'Montserrat', sans-serif;
+  font-size: 23px;
+  font-weight: 500;
+  padding-left: 17px;
+  display: flex;
+  flex-direction: column;
+}
+
+.dontmiss img{
+  margin-top: 25px;
+  width: 100%
+}
+
+.flyknit p:last-of-type{
+  margin-top: 20px;
+  font-size: 20px;
 }
