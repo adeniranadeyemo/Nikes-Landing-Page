@@ -16,7 +16,7 @@ nav{
   justify-content: space-between;
   background: #f2f2f2;
   margin: 0px -50px 0px -50px;
-  padding: 15px 80px;
+  padding: 15px 57px;
 }
 
 .navul{
@@ -182,8 +182,7 @@ main{
   gap: 13px;
   margin-top: 10px;
   margin-right: -20px;
-  overflow-x: hidden;
-  /* padding: 0px 0px 0px 15px; */
+  overflow-x: scroll;
 }
 
 .nshoe img{
@@ -346,13 +345,38 @@ figcaption > p{
   font-size: 17px;
 }
 
-.nbtn{
+.wnbtn{
+    background: #fff;
+    position: absolute;
+    padding: 25px 10px;
+    border-radius: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 75px;
+}
+
+.bnbtn{
+  background: #000;
   position: absolute;
-  padding: 20px 10px;
-  border-radius: 10px;
-  background: #fff;
+  height: 75px;
+  border-radius: 15px;
   display: flex;
   justify-content: center;
   align-items: center;
   width: 75px;
+}
+
+.wnike{
+  width: 100px;
+  height: 100px;
+  margin-top: -23px;
+  margin-left: 5px;
+}
+
+.bnbtn p{
+  bottom: 21px;
+  left: 25px;
+  font-family: 'Anton', 'Bebas Neue', sans-serif;
+  font-weight: lighter;
 }
