@@ -6,7 +6,7 @@
 
 body{
   background: #fff;
-  padding: 0px 50px 10px 50px;
+  padding: 0px 50px 20px 50px;
 }
 
 nav{
@@ -503,9 +503,54 @@ button:hover{
   color: #000;
 }
 
-.black-end{
-  /* width: 100%; */
+.footer{
   height: 300px;
   background: #000;
   margin: 65px -50px 0px -50px;
+  padding: 40px 90px 20px;
+  color: #0f0a05;
+}
+
+.footerup{
+  display: flex;
+  justify-content: space-between;
+}
+
+.footerup1{
+  display: flex;
+  justify-content: space-between;
+}
+
+.fup1 h3{
+  font-family: 'Antonio', 'Bebas Neue', sans-serif;
+  font-size: 16px;
+  font-weight: 200;
+  letter-spacing: 1px;
+  line-height: 35.5px;
+  color: white;
+}
+
+.fup2 h3{
+  font-family: 'Antonio', 'Bebas Neue', sans-serif;
+  font-weight: 200;
+  font-size: 16px;
+}
+
+.fup2 h3{
+  color: #fff;
+}
+
+.fup2 p{
+  font-family: 'Campton', 'Montserrat', sans-serif;
+  font-size: 12px;
+  color: grey;
+  margin-top: 15px;
+}
+
+.fup1, .fup2{
+  margin-right: 150px;
+}
+
+.footerup2 img{
+  margin-left: 15px;
 }
