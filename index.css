@@ -33,6 +33,7 @@ nav a{
 li{
   list-style: none;
   margin-left: 20px;
+  color: #000;
 }
 
 nav img{
@@ -191,8 +192,9 @@ main{
 }
 
 ::-webkit-scrollbar {
-    width: 5px;
+    width: 0px;
     height: 10px;
+    /* display: none; */
 }
 
 ::-webkit-scrollbar-thumb {
@@ -200,9 +202,9 @@ main{
     border-radius: 10px;
 }
 
-::-webkit-scrollbar-track {
+/* ::-webkit-scrollbar-track {
     background-color: #f2f2f2;
-}
+} */
 
 /* ::-webkit-scrollbar-button {
     display: block;
@@ -511,7 +513,6 @@ button:hover{
 
 .footerup{
   display: flex;
-  background: red;
   justify-content: space-between;
 }
 
@@ -523,9 +524,8 @@ button:hover{
 
 .fup1 h3{
   font-family: 'Antonio', 'Bebas Neue', sans-serif;
-  font-size: 16px;
+  font-size: .75rem;
   font-weight: 600;
-  /* letter-spacing: 1px; */
   line-height: 35.5px;
   color: white;
 }
@@ -533,13 +533,13 @@ button:hover{
 .fup2 h3{
   font-family: 'Antonio', 'Bebas Neue', sans-serif;
   font-weight: 600;
-  font-size: 16px;
+  font-size: .75rem;
   color: #fff;
 }
 
 .fup2 p{
   font-family: 'Campton', 'Montserrat', sans-serif;
-  font-size: 12px;
+  font-size: .5rem;
   color: grey;
   margin-top: 14px;
 }
@@ -559,7 +559,7 @@ button:hover{
   margin-top: 50px;
   font-family: 'Campton', 'Montserrat', sans-serif;
   color: grey;
-  font-size: 12px;
+  font-size: .5rem;
 }
 
 .footerdown1, .footerdown2{
@@ -569,6 +569,10 @@ button:hover{
 .footerdown1 p:first-of-type{
   color: #fff;
   margin: 0px 15px 0px 10px;
+}
+
+.footerdown p{
+  padding-top: 3px;
 }
 
 .cr{
