@@ -588,3 +588,147 @@ button:hover{
 .footerdown2 p{
   margin-right: 25px;
 }
+
+.nav2{
+  display: none;
+}
+
+.topicons i{
+  font-size: 20px;
+}
+
+.topicons i:last-of-type{
+  display: none;
+}
+
+@media screen and (max-width: 396px) {
+body{
+    padding: 7px 15px 10px;
+}
+
+nav, .newrelul, input, .heart{
+    display: none;
+}
+
+.newrel{
+    height: 30px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.topicons{
+    display: flex;
+    width: 200px;
+    margin-right: -37px;
+    justify-content: space-around;
+}
+
+.topicons i:last-of-type{
+    display: inline;
+    height: 50px;
+    width: 50px;
+}
+
+.nav2{
+  display: block;
+  font-family: 'Campton', 'Montserrat', sans-serif;
+  font-size: 19px;
+  position: fixed;
+  z-index: 999;
+  top: 0;
+  right: 37%;
+  transform: translateX(100%);
+  transition: transform .5s ease-in-out;
+  width: 50%;
+  background: #fff;
+  padding-left: 30px;
+  box-shadow: -3px 3px 12px 5px rgba(250, 250, 250, 0.7);
+}
+
+.open-nav{
+  transform: translateX(0%);
+}
+
+.close{
+  margin: .5em 1em 0 0;
+  float: right;
+  font-size: 25px;
+}
+
+.nav-texts{
+  margin-top: 3em;
+}
+
+.nav-text{
+  margin: 20px 25px 0 0px;
+}
+
+.bx-chevron-right{
+  float: right;
+  font-size: 23px;
+  margin-top: -20px;
+}
+
+.jordan{
+  display: flex;
+  margin: 2.5em 0 0 0;
+  font-size: 13px;
+  font-weight: 300;
+}
+
+.jlogo{
+  width: 17px;
+  height: 17px;
+}
+
+.jordan p{
+  margin-left: 15px;
+}
+
+.mem{
+  margin: 6em 5em 0 0;
+  font-size: 16px;
+}
+
+.mem span{
+  color: grey;
+}
+
+.mem button{
+  margin: 30px 7px 0 0;
+  padding: 8px 16px;
+}
+
+.mem button:last-of-type{
+  background: none;
+  color: #000;
+  border: 2px solid #ddd;
+}
+
+.nav2 .icons{
+  margin-top: 60px;
+  margin-bottom: 150px;
+}
+
+.nav2 .icons p{
+  font-size: 13px;
+  font-weight: 300;
+  margin-left: 15px;
+}
+
+.iconandtext{
+  margin-top: 20px;
+  display: flex;
+}
+
+.iconandtext:last-of-type{
+  margin-left: 3px;
+}
+
+.iconandtext .bx-question-mark{
+  font-size: 14px;
+  border: 2px solid black;
+  border-radius: 50px;
+}
+}

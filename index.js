@@ -27,3 +27,15 @@ prvButton.addEventListener("click", () => {
   const nShoeWidth = nShoe.clientWidth;
   nShoes.scrollLeft -= nShoeWidth;
 });
+
+const menu = document.querySelector('.bx-menu')
+const close = document.querySelector('.close')
+const nav = document.querySelector('.nav2')
+
+menu.addEventListener('click', () => {
+  nav.classList.add('open-nav')
+})
+
+close.addEventListener('click', () => {
+  nav.classList.remove('open-nav')
+})
