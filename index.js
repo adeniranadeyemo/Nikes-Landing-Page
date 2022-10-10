@@ -31,11 +31,14 @@ prvButton.addEventListener("click", () => {
 const menu = document.querySelector('.bx-menu')
 const close = document.querySelector('.close')
 const nav = document.querySelector('.nav2')
+const body = document.querySelector('body')
 
 menu.addEventListener('click', () => {
   nav.classList.add('open-nav')
+  body.classList.add('blur')
 })
 
 close.addEventListener('click', () => {
   nav.classList.remove('open-nav')
+  body.classList.remove('blur')
 })
