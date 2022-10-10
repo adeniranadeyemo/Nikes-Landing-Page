@@ -35,10 +35,10 @@ const body = document.querySelector('body')
 
 menu.addEventListener('click', () => {
   nav.classList.add('open-nav')
-  body.classList.add('blur')
+  nav.classList.add('blur')
 })
 
 close.addEventListener('click', () => {
   nav.classList.remove('open-nav')
-  body.classList.remove('blur')
+  nav.classList.remove('blur')
 })

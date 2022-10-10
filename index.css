@@ -607,7 +607,7 @@ button:hover{
 
 @media screen and (max-width: 396px) {
 body{
-    padding: 7px 15px 10px;
+    padding: 7px 15px 0px;
 }
 
 nav, .newrelul, input, .heart{
@@ -659,15 +659,17 @@ nav, .newrelul, input, .heart{
   width: 100%;
   background: #fff;
   padding-left: 30px;
+  padding-right: 50px;
   box-shadow: -3px 3px 12px 5px rgba(250, 250, 250, 0.7);
 }
 
 .open-nav{
-  transform: translateX(0%);
+  transform: translateX(12%);
 }
 
 /* .blur{
-  filter: blur(2px);
+  -webkit-backdrop-filter: blur(8px);
+  backdrop-filter: blur(8px);
 } */
 
 .close{
@@ -795,35 +797,117 @@ h2{
 }
 
 .tailored-imgs{
-  background: red;
-  display: block;
+  display: flex;
+  flex-direction: column;
+  padding-right: 0px;
   width: 100%;
   margin-top: 10px;
 }
 
-.tailored-imgs img{
-  width: 100%;
-
+.bperson p{
+  bottom: 90px;
+  left: 35px;
+  color: #fff;
 }
 
-.bperson img{
+.bperson button{
+  left: 35px;
+  bottom: 35px;
+  background: #fff;
+  color: #000;
+  font-size: 17px;
+}
 
+.discov-imgs{
+  display: flex;
+  flex-direction: column;
+}
+
+.dis{
+  width: 100%;
+  height: 20em;
+}
+
+.dis img{
+  width: 15em;
+}
+
+.dis p{
+  margin: 0 0 -30px -20px;
+}
+
+.dis button{
+  margin: 0 0 -10px -20px;
+  padding: 10px 15px;
+  font-size: 14px;
+}
+
+.bnbtn p{
+  bottom: 50px;
+  left: 45px;
+}
+
+.xyz{
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.mh{
   width: 100%;
 }
 
+.mh p:first-of-type{
+  font-size: 18px;
+  margin-top: -10px;
+}
 
-.footer{
-  width: 100%;
+.mh p:last-of-type{
+  font-size: 14px;
+  width: 65%;
+}
+
+.mh button{
+  font-size: 13px;
+}
+
+.mh img{
+  width: 40px;
+}
+
+.lpic{
+  display: none;
 }
 
 .cbody{
+  margin: -20px 0 20px -130px;
   display: flex;
   flex-direction: column;
+}
+
+.cbodytext p:nth-child(1){
+  margin-bottom: 15px;
 }
 
 .cbodytext p:nth-child(2), p:nth-child(3), p:nth-child(4), p:nth-child(5){
   display: none;
 }
+
+.footer{
+  margin: 0px -25px 0px -25px;
+  width: 100%;
+}
+
+.footerup, .footerup1{
+  display: flex;
+  flex-direction: column;
+}
+
+.fup1 h3, .fup2 h3{
+  font-size: .65rem;
+  line-height: 27px;
+}
+
 
 .fup2 p{
   display: none;
