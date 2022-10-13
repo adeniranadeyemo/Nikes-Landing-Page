@@ -400,6 +400,7 @@ figcaption > p{
 .bnbtn{
   background: #000;
   position: absolute;
+  padding: 25px 10px;
   /* height: 75px; */
   border-radius: 15px;
   display: flex;
