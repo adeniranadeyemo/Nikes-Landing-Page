@@ -394,24 +394,24 @@ figcaption > p{
     display: flex;
     justify-content: center;
     align-items: center;
-    width: 5em;
+    width: 3em;
 }
 
 .bnbtn{
   background: #000;
   position: absolute;
   padding: 25px 10px;
-  height: 5em;
+  height: 3em;
   border-radius: 15px;
   display: flex;
   justify-content: center;
   align-items: center;
-  width: 5em;
+  width: 3em;
 }
 
 .wnikelogo{
-  width: 6em;
-  height: 6em;
+  width: 5em;
+  height: 5em;
   margin-top: -23px;
   margin-left: 5px;
 }
