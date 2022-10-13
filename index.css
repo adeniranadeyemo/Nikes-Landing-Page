@@ -783,8 +783,8 @@ nav, .newrelul, input, .heart{
   display: flex;
   justify-content: center;
   align-items: center;
-  margin-left: -14px;
-  margin-right: -14px;
+  margin-left: -17px;
+  margin-right: -17px;
   height: 30px;
 }
 
@@ -919,7 +919,7 @@ h2{
 }
 
 .footer{
-  margin: 0px -15px 0px -15px;
+  margin: 0px -17px 0px -17px;
   /* width: 100%; */
 }
 
