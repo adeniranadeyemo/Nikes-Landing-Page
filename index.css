@@ -11,19 +11,19 @@ body{
 
 nav{
   font-family: 'Campton', 'Montserrat', sans-serif;
-  font-size: 13px;
+  font-size: 0.813em;
   display: flex;
   justify-content: space-between;
   background: #f2f2f2;
-  margin: 0px -50px 0px -50px;
-  padding: 15px 57px;
+  margin: 0em -3.125em 0em -3.125em;
+  padding: 0.938em 3.563em;
 }
 
 .navul{
   display: flex;
   justify-content: center;
   align-items: center;
-  margin-right: -5px;
+  margin-right: -0.313em;
 }
 
 nav a{
@@ -32,28 +32,28 @@ nav a{
 
 li{
   list-style: none;
-  margin-left: 20px;
+  margin-left: 1.25em;
   color: #000;
 }
 
 nav img{
-  height: 14px;
-  width: 14px;
-  margin-left: -7px;
+  height: 0.875em;
+  width: 0.875em;
+  margin-left: -0.438em;
 }
 
 .newrel{
   display: flex;
   justify-content: space-between;
-  padding: 20px 0px;
+  padding: 1.25em 0em;
   margin: 0px auto;
   font-family: 'Campton', 'Montserrat', sans-serif;
-  font-size: 15px;
+  font-size: 0.938em;
 }
 
 .nikelogo{
-  height: 20px;
-  width: 50px;
+  height: 1.3em;
+  width: 3em;
 }
 
 .newrelul{
@@ -61,7 +61,7 @@ nav img{
   justify-content: center;
   align-items: center;
   text-align: center;
-  margin: 7px 0px 0px 150px;
+  margin: 0.43em 0px 0px 9.375em;
 }
 
 .topicons{
@@ -71,7 +71,7 @@ nav img{
 input{
   height: 30px;
   border: none;
-  width: 130px;
+  width: 7.9em;
   background: #f2f2f2;
   border-radius: 20px;
   position: relative;
@@ -133,7 +133,7 @@ input[type="text"]::placeholder{
 
 .accesspeg p{
   font-family: 'Campton', 'Montserrat', sans-serif;
-  font-size: 15px;
+  font-size: 0.938em;
 }
 
 h2{
@@ -232,7 +232,7 @@ main{
 }
 
 figcaption {
-  margin-top: 15px;
+  margin-top: 0.938em;
   display: flex;
   flex-direction: column;
   font-family: 'Campton', 'Montserrat', sans-serif;
@@ -549,7 +549,7 @@ button:hover{
 }
 
 .footerup2 img{
-  margin-left: 15px;
+  margin-left: 0.938em;
 }
 
 .footerdown{
@@ -625,7 +625,7 @@ button:hover{
 
 
 
-@media screen and (max-width: 396px) {
+@media screen and (max-width: 422px) {
 *{
   margin: 0;
   padding: 0;
@@ -633,7 +633,7 @@ button:hover{
 }
 
 body{
-    padding: 7px 15px 0px;
+    padding: 7px 15px 0px 15px;
 }
 
 nav, .newrelul, input, .heart{
