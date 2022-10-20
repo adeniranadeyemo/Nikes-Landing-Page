@@ -168,7 +168,7 @@ main{
 .gear p{
   font-family: 'Campton', 'Montserrat', sans-serif;
   font-weight: 500;
-  font-size: 1.45em;
+  font-size: 1.1rem;
 }
 
 .fandbbtns img{
@@ -262,7 +262,7 @@ figcaption > p{
 
 .tailored > p{
   font-weight: 500;
-  font-size: 1.45em;
+  font-size: 1.1em;
 }
 
 .bpeople{
@@ -322,6 +322,10 @@ figcaption > p{
   flex-direction: column;
 }
 
+.dontmiss p{
+  font-size: 1.1rem;
+}
+
 .dontmiss img{
   margin-top: 25px;
   width: 100%
@@ -336,8 +340,12 @@ figcaption > p{
   margin-top: 100px;
 }
 
+h2{
+  line-height: 1em;
+}
+
 .discov > p{
-  font-size: 1.45em;
+  font-size: 1.1rem;
   font-weight: 500;
   font-family: 'Campton', 'Montserrat', sans-serif;
 }
@@ -650,6 +658,12 @@ nav, .newrelul, input, .heart{
     align-items: center;
     padding-bottom: 30px;
     z-index: 999;
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
+    padding-left: 1em;
+    padding-right: 1em;
 }
 
 .topicons{
@@ -779,12 +793,12 @@ nav, .newrelul, input, .heart{
 }
 
 .landed{
-  /* width: 100%; */
+  margin-top: 3.3em;
   display: flex;
   justify-content: center;
   align-items: center;
-  margin-left: -17px;
-  margin-right: -17px;
+  margin-left: -25px;
+  margin-right: -25px;
   height: 30px;
 }
 
@@ -805,7 +819,7 @@ nav, .newrelul, input, .heart{
 
 h2{
   font-size: 2.4em;
-  line-height: 40px;
+  line-height: 1em;
 }
 
 .nshoesrow{
@@ -845,6 +859,7 @@ h2{
 .discov-imgs{
   display: flex;
   flex-direction: column;
+  margin-top: .9em;
 }
 
 .dis{
@@ -919,7 +934,7 @@ h2{
 }
 
 .footer{
-  margin: 0px -17px 0px -17px;
+  margin: 0px -25px 0px -25px;
   /* width: 100%; */
 }
 
@@ -1006,5 +1021,9 @@ h2{
   margin-top: 15px;
   line-height: 25px;
   margin-left: -5px;
+}
+
+button {
+  font-size: .6em;
 }
 }
