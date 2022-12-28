@@ -1,16 +1,16 @@
-*{
+* {
   box-sizing: border-box;
   margin: 0;
   padding: 0;
 }
 
-body{
+body {
   background: #fff;
   padding: 0px 50px 20px 50px;
 }
 
-nav{
-  font-family: 'Campton', 'Montserrat', sans-serif;
+nav {
+  font-family: "Campton", "Montserrat", sans-serif;
   font-size: 0.813em;
   display: flex;
   justify-content: space-between;
@@ -19,44 +19,44 @@ nav{
   padding: 0.938em 3.563em;
 }
 
-.navul{
+.navul {
   display: flex;
   justify-content: center;
   align-items: center;
   margin-right: -0.313em;
 }
 
-nav a{
+nav a {
   text-decoration: none;
 }
 
-li{
+li {
   list-style: none;
   margin-left: 1.25em;
   color: #000;
 }
 
-nav img{
+nav img {
   height: 0.875em;
   width: 0.875em;
   margin-left: -0.438em;
 }
 
-.newrel{
+.newrel {
   display: flex;
   justify-content: space-between;
   padding: 1.25em 0em;
   margin: 0px auto;
-  font-family: 'Campton', 'Montserrat', sans-serif;
+  font-family: "Campton", "Montserrat", sans-serif;
   font-size: 0.938em;
 }
 
-.nikelogo{
+.nikelogo {
   height: 1.3em;
   width: 3em;
 }
 
-.newrelul{
+.newrelul {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -64,11 +64,11 @@ nav img{
   margin: 0.43em 0px 0px 9.375em;
 }
 
-.topicons{
+.topicons {
   display: flex;
 }
 
-input{
+input {
   height: 30px;
   border: none;
   width: 7.9em;
@@ -79,25 +79,26 @@ input{
   padding-top: 2px;
 }
 
-input[type="text"]::placeholder{
+input[type="text"]::placeholder {
   color: #ddd;
 }
 
-.search{
+.search {
   position: absolute;
   height: 17px;
   width: 17px;
   margin: 7px 0px 0px 7px;
 }
 
-.heart, .bag{
+.heart,
+.bag {
   height: 17px;
   width: 17px;
   margin: 7px 0px 0px 20px;
 }
 
-.landed{
-  font-family: 'Campton', 'Montserrat', sans-serif;
+.landed {
+  font-family: "Campton", "Montserrat", sans-serif;
   background: #f2f2f2;
   color: #000;
   font-size: 0.6em;
@@ -108,18 +109,18 @@ input[type="text"]::placeholder{
   margin: 0px -50px 0px -50px;
 }
 
-.landed a{
+.landed a {
   color: #000;
 }
 
-.nikerunners{
+.nikerunners {
   width: 100%;
   display: block;
   margin-left: auto;
   margin-right: auto;
 }
 
-.firstaccess{
+.firstaccess {
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -127,27 +128,27 @@ input[type="text"]::placeholder{
   margin-top: 50px;
 }
 
-.accesspeg{
+.accesspeg {
   text-align: center;
 }
 
-.accesspeg p{
-  font-family: 'Campton', 'Montserrat', sans-serif;
+.accesspeg p {
+  font-family: "Campton", "Montserrat", sans-serif;
   font-size: 0.938em;
 }
 
-h2{
-  font-family: 'Anton', 'Bebas Neue', sans-serif;
+h2 {
+  font-family: "Anton", "Bebas Neue", sans-serif;
   font-size: 4em;
   line-height: 62px;
   margin-top: 5px;
 }
 
-.firstbtns{
+.firstbtns {
   margin-top: 30px;
 }
 
-button{
+button {
   border: none;
   background: #000;
   color: #fff;
@@ -156,33 +157,33 @@ button{
   margin-right: 5px;
 }
 
-main{
+main {
   margin-top: 70px;
 }
 
-.gear{
+.gear {
   display: flex;
   justify-content: space-between;
 }
 
-.gear p{
-  font-family: 'Campton', 'Montserrat', sans-serif;
+.gear p {
+  font-family: "Campton", "Montserrat", sans-serif;
   font-weight: 500;
   font-size: 1.1rem;
 }
 
-.fandbbtns img{
+.fandbbtns img {
   border-radius: 100%;
   background: #f2f2f2;
   padding: 15px 20px;
   margin-left: 10px;
 }
 
-.fandbbtns img:hover{
+.fandbbtns img:hover {
   cursor: pointer;
 }
 
-.nshoesrow{
+.nshoesrow {
   display: flex;
   gap: 13px;
   margin-top: 10px;
@@ -192,14 +193,14 @@ main{
 }
 
 ::-webkit-scrollbar {
-    width: 0px;
-    height: 10px;
-    /* display: none; */
+  width: 0px;
+  height: 10px;
+  /* display: none; */
 }
 
 ::-webkit-scrollbar-thumb {
-    background: #39393a;
-    border-radius: 10px;
+  background: #39393a;
+  border-radius: 10px;
 }
 
 /* ::-webkit-scrollbar-track {
@@ -223,11 +224,11 @@ main{
     display: none;
 } */
 
-.nshoe img{
+.nshoe img {
   background: #f2f2f2;
 }
 
-.nshoe img{
+.nshoe img {
   height: 29em;
 }
 
@@ -235,43 +236,43 @@ figcaption {
   margin-top: 0.938em;
   display: flex;
   flex-direction: column;
-  font-family: 'Campton', 'Montserrat', sans-serif;
+  font-family: "Campton", "Montserrat", sans-serif;
   font-size: 0.7em;
 }
 
-figcaption div{
+figcaption div {
   display: flex;
   justify-content: space-between;
 }
 
-figcaption p:first-of-type{
+figcaption p:first-of-type {
   display: block;
 }
 
-figcaption > p{
+figcaption > p {
   color: grey;
   margin-top: -5px;
 }
 
-.tailored{
-  font-family: 'Campton', 'Montserrat', sans-serif;
+.tailored {
+  font-family: "Campton", "Montserrat", sans-serif;
   margin-right: auto;
   margin-left: auto;
   margin-top: 100px;
 }
 
-.tailored > p{
+.tailored > p {
   font-weight: 500;
   font-size: 1.1em;
 }
 
-.bpeople{
+.bpeople {
   display: flex;
   gap: 10px;
   margin-top: 30px;
 }
 
-.tailored-imgs{
+.tailored-imgs {
   display: flex;
   flex-direction: column;
   width: 100%;
@@ -279,24 +280,24 @@ figcaption > p{
   padding-right: 10px;
 }
 
-.bperson{
+.bperson {
   position: relative;
   width: 100%;
 }
 
-.bperson img{
+.bperson img {
   width: 100%;
   height: 100%;
 }
 
-.bperson p{
+.bperson p {
   position: absolute;
   bottom: 117px;
   left: 45px;
   color: #fff;
 }
 
-.bperson button{
+.bperson button {
   position: absolute;
   left: 45px;
   bottom: 47px;
@@ -305,59 +306,60 @@ figcaption > p{
   font-size: 17px;
 }
 
-.trending{
+.trending {
   margin-top: 100px;
 }
 
-.lbtn, .lbutton{
+.lbtn,
+.lbutton {
   transform: rotate(180deg);
 }
 
-.dontmiss{
+.dontmiss {
   margin-top: 100px;
-  font-family: 'Campton', 'Montserrat', sans-serif;
+  font-family: "Campton", "Montserrat", sans-serif;
   font-size: 1.45em;
   font-weight: 500;
   display: flex;
   flex-direction: column;
 }
 
-.dontmiss p{
+.dontmiss p {
   font-size: 1.1rem;
 }
 
-.dontmiss img{
+.dontmiss img {
   margin-top: 25px;
-  width: 100%
+  width: 100%;
 }
 
-.flyknit p:last-of-type{
+.flyknit p:last-of-type {
   margin-top: 20px;
   font-size: 1.3em;
 }
 
-.discov{
+.discov {
   margin-top: 100px;
 }
 
-h2{
+h2 {
   line-height: 1em;
 }
 
-.discov > p{
+.discov > p {
   font-size: 1.1rem;
   font-weight: 500;
-  font-family: 'Campton', 'Montserrat', sans-serif;
+  font-family: "Campton", "Montserrat", sans-serif;
 }
 
-.discov-imgs{
+.discov-imgs {
   display: flex;
   justify-content: space-around;
   gap: 10px;
   margin-top: 30px;
 }
 
-.discov-img1{
+.discov-img1 {
   background: #ffb077;
   width: 50%;
   display: flex;
@@ -365,7 +367,7 @@ h2{
   justify-content: center;
 }
 
-.discov-img2{
+.discov-img2 {
   background: #dd3f28;
   width: 50%;
   display: flex;
@@ -373,19 +375,19 @@ h2{
   justify-content: center;
 }
 
-.dis{
+.dis {
   position: relative;
-  font-family: 'Campton', 'Montserrat', sans-serif;
+  font-family: "Campton", "Montserrat", sans-serif;
 }
 
-.dis p{
+.dis p {
   position: absolute;
   bottom: 117px;
   left: 45px;
   color: #fff;
 }
 
-.dis button{
+.dis button {
   position: absolute;
   left: 45px;
   bottom: 47px;
@@ -394,18 +396,18 @@ h2{
   font-size: 17px;
 }
 
-.wnbtn{
-    background: #fff;
-    position: absolute;
-    padding: 25px 10px;
-    border-radius: 15px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    width: 5em;
+.wnbtn {
+  background: #fff;
+  position: absolute;
+  padding: 25px 10px;
+  border-radius: 15px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 5em;
 }
 
-.bnbtn{
+.bnbtn {
   background: #000;
   position: absolute;
   padding: 25px 10px;
@@ -417,80 +419,80 @@ h2{
   width: 5em;
 }
 
-.wnikelogo{
+.wnikelogo {
   width: 6em;
   height: 6em;
   margin-top: -23px;
   margin-left: 5px;
 }
 
-.bnbtn p{
+.bnbtn p {
   bottom: 21px;
   left: 25px;
-  font-family: 'Anton', 'Bebas Neue', sans-serif;
+  font-family: "Anton", "Bebas Neue", sans-serif;
   font-weight: lighter;
 }
 
-.join-us{
+.join-us {
   margin-top: 100px;
 }
 
-.join-us > p{
-  font-family: 'Campton', 'Montserrat', sans-serif;
+.join-us > p {
+  font-family: "Campton", "Montserrat", sans-serif;
   font-size: 23px;
   font-weight: 500;
 }
 
-.xyz{
+.xyz {
   display: flex;
   margin-top: 30px;
   width: 100%;
 }
 
-.mh{
+.mh {
   background: #f0eadc;
-  font-family: 'Campton', 'Montserrat', sans-serif;
+  font-family: "Campton", "Montserrat", sans-serif;
   padding: 40px 30px 0px 40px;
   position: relative;
   width: 50%;
   height: 300px;
 }
 
-.mh img{
+.mh img {
   position: absolute;
   top: 30px;
   width: 4em;
   right: 30px;
 }
 
-.mh p:first-of-type{
+.mh p:first-of-type {
   font-size: 23px;
 }
 
-.mh p:last-of-type{
+.mh p:last-of-type {
   margin-top: 30px;
 }
 
-.mh button{
+.mh button {
   margin-top: 30px;
   font-size: 17px;
 }
 
-.lpic{
+.lpic {
   width: 50%;
 }
 
-.lpic img{
+.lpic img {
   width: 100%;
   height: 300px;
 }
 
-button:hover{
+button:hover {
   cursor: pointer;
 }
 
-.clothing-bottom{
-  font-family: 'Campton', 'Montserrat', sans-serif;
+.clothing-bottom {
+  font-family: "Campton", "Montserrat", sans-serif;
   margin-top: 80px;
   display: flex;
   /* flex-direction: column; */
@@ -499,158 +501,161 @@ button:hover{
   text-align: left;
 }
 
-.cbody{
+.cbody {
   display: flex;
   width: 60%;
   justify-content: space-between;
 }
 
-.cbodytext p{
+.cbodytext p {
   margin-top: 10px;
   color: grey;
 }
 
-.cbodytext p:first-child{
+.cbodytext p:first-child {
   margin-bottom: 25px;
   color: #000;
 }
 
-.footer{
+.footer {
   background: #0f0a05;
   margin: 65px -50px 0px -50px;
   padding: 4% 6% 2%;
 }
 
-.footerup{
+.footerup {
   display: flex;
   justify-content: space-between;
 }
 
-.footerup1{
+.footerup1 {
   display: flex;
   width: 80%;
   justify-content: space-between;
 }
 
-.fup1 h3{
-  font-family: 'Antonio', 'Bebas Neue', sans-serif;
-  font-size: .75rem;
+.fup1 h3 {
+  font-family: "Antonio", "Bebas Neue", sans-serif;
+  font-size: 0.75rem;
   font-weight: 600;
   line-height: 35.5px;
   color: white;
 }
 
-.fup2 h3{
-  font-family: 'Antonio', 'Bebas Neue', sans-serif;
+.fup2 h3 {
+  font-family: "Antonio", "Bebas Neue", sans-serif;
   font-weight: 600;
-  font-size: .75rem;
+  font-size: 0.75rem;
   color: #fff;
 }
 
-.fup2 p{
-  font-family: 'Campton', 'Montserrat', sans-serif;
-  font-size: .5rem;
+.fup2 p {
+  font-family: "Campton", "Montserrat", sans-serif;
+  font-size: 0.5rem;
   color: grey;
   margin-top: 14px;
 }
 
-.fup1, .fup2{
+.fup1,
+.fup2 {
   margin-right: 150px;
 }
 
-.footerup2 img{
+.footerup2 img {
   margin-left: 0.938em;
 }
 
-.footerdown{
+.footerdown {
   display: flex;
   justify-content: space-between;
   padding: 0px 5px;
   margin-top: 50px;
-  font-family: 'Campton', 'Montserrat', sans-serif;
+  font-family: "Campton", "Montserrat", sans-serif;
   color: grey;
-  font-size: .5rem;
+  font-size: 0.5rem;
 }
 
 /* .footerdown1 p:first-of-type{
   margin: 0;
 } */
 
-.footerdown p{
+.footerdown p {
   padding-top: 10px;
 }
 
-.footerdown1{
+.footerdown1 {
   display: flex;
 }
 
-.location, .copyright{
+.location,
+.copyright {
   display: flex;
 }
 
-.bxs-location-plus{
+.bxs-location-plus {
   font-size: 20px;
   color: #fff;
 }
 
-.bx-copyright{
+.bx-copyright {
   font-size: 12px;
   margin: 12px 0px 0px 15px;
   color: #fff;
 }
 
-.location p{
+.location p {
   font-size: 10px;
   color: #fff;
 }
 
-.copyright p{
+.copyright p {
   margin: 3px 0 0 5px;
 }
 
-.footerdown2{
+.footerdown2 {
   display: flex;
   margin-left: 400px;
 }
 
-.footerdown2 p{
+.footerdown2 p {
   margin-right: 25px;
 }
 
-.nav2{
+.nav2 {
   display: none;
 }
 
-.topicons i{
+.topicons i {
   font-size: 20px;
 }
 
-.topicons i:last-of-type{
+.topicons i:last-of-type {
   display: none;
 }
 
-.jgif{
+.jgif {
   display: none;
 }
-
-
 
 @media screen and (max-width: 422px) {
-*{
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-}
+  * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
 
-body{
+  body {
     padding: 7px 25px 0px 25px;
-}
+  }
 
-nav, .newrelul, input, .heart{
+  nav,
+  .newrelul,
+  input,
+  .heart {
     display: none;
-}
+  }
 
-.newrel{
+  .newrel {
     height: 30px;
     display: flex;
     background: #fff;
@@ -664,367 +669,374 @@ nav, .newrelul, input, .heart{
     left: 0;
     padding-left: 1em;
     padding-right: 1em;
-}
+  }
 
-.topicons{
+  .topicons {
     display: flex;
     width: 200px;
     margin-right: -37px;
     justify-content: space-around;
-}
+  }
 
-.topicons > * {
-  cursor: pointer;
-}
+  .topicons > * {
+    cursor: pointer;
+  }
 
-.topicons i:nth-child(3){
-  display: none;
-}
+  .topicons i:nth-child(3) {
+    display: none;
+  }
 
-.topicons i:last-of-type{
+  .topicons i:last-of-type {
     display: inline;
     margin-top: 7px;
     width: 50px;
     margin-right: -23px;
-}
-
-.nav2{
-  display: block;
-  font-family: 'Campton', 'Montserrat', sans-serif;
-  font-size: 19px;
-  position: fixed;
-  z-index: 999;
-  top: 0;
-  right: 0;
-  transform: translateX(110%);
-  transition: transform .5s ease-in-out;
-/*   width: 100%; */
-  background: hsl(0, 0%, 100%);
-  backdrop-filter: blur(1rem);
-  padding-left: 30px;
-  padding-right: 50px;
-  box-shadow: -1px 3px 12px 5px rgba(250, 250, 250, 0.5);
-}
-
-.open-nav{
-  transform: translateX(12%);
-}
-
-.close{
-  margin: .5em .3em 0 0;
-  cursor: pointer;
-  float: right;
-  font-size: 25px;
-}
-
-.nav-texts{
-  margin-top: 3em;
-}
-
-.nav-text{
-  margin: 20px 25px 0 0px;
-}
-
-.bx-chevron-right{
-  float: right;
-  font-size: 23px;
-  margin-top: -20px;
-}
-
-.jordan{
-  display: flex;
-  margin: 2.5em 0 0 0;
-  font-size: 13px;
-  font-weight: 300;
-}
-
-.jlogo{
-  width: 17px;
-  height: 17px;
-}
-
-.jordan p{
-  margin-left: 15px;
-}
-
-.mem{
-  margin: 6em 5em 0 0;
-  font-size: 16px;
-}
-
-.mem span{
-  color: grey;
-}
-
-.mem button{
-  margin: 30px 7px 0 0;
-  padding: 8px 16px;
-}
-
-.mem button:last-of-type{
-  background: none;
-  color: #000;
-  border: 2px solid #ddd;
-}
-
-.nav2 .icons{
-  margin-top: 60px;
-  margin-bottom: 150px;
-}
-
-.nav2 .icons p{
-  font-size: 13px;
-  font-weight: 300;
-  margin-left: 15px;
-}
-
-.iconandtext{
-  margin-top: 20px;
-  display: flex;
-}
-
-.iconandtext:last-of-type{
-  margin-left: 3px;
-}
-
-.iconandtext .bx-question-mark{
-  font-size: 14px;
-  border: 2px solid black;
-  border-radius: 50px;
-}
-
-.landed{
-  margin-top: 3.5em;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  margin-left: -25px;
-  margin-right: -25px;
-  height: 30px;
-}
-
-.nikerunners{
-  display: none;
-}
-
-.jgif{
-  margin-top: 2em;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-
-.njgiphy{
-  height: 15em;
-}
-
-h2{
-  font-size: 2.4em;
-  line-height: 1em;
-}
-
-.nshoesrow{
-  width: 100%;
-}
-
-.nshoe img{
-  height: 18em;
-}
-
-.bpeople{
-  display: block;
-}
-
-.tailored-imgs{
-  display: flex;
-  flex-direction: column;
-  padding-right: 0px;
-  width: 100%;
-  margin-top: 10px;
-}
-
-.bperson p{
-  bottom: 90px;
-  left: 35px;
-  color: #fff;
-}
-
-.bperson button{
-  left: 35px;
-  bottom: 35px;
-  background: #fff;
-  color: #000;
-  font-size: 17px;
-}
-
-.discov-imgs{
-  display: flex;
-  flex-direction: column;
-  margin-top: .9em;
-}
-
-.dis{
-  width: 100%;
-  height: 20em;
-}
-
-.dis img{
-  width: 15em;
-}
-
-.dis p{
-  margin: 0 0 -30px -20px;
-}
-
-.dis button{
-  margin: 0 0 -10px -20px;
-  padding: 10px 15px;
-  font-size: 14px;
-}
-
-.bnbtn p{
-  bottom: 50px;
-  left: 45px;
-}
-
-.xyz{
-  display: flex;
-  flex-direction: column;
-  gap: 15px;
-}
-
-.mh{
-  width: 100%;
-}
-
-.mh p:first-of-type{
-  font-size: 18px;
-  margin-top: 40px;
-}
-
-.mh p:last-of-type{
-  font-size: 14px;
-  width: 65%;
-}
-
-.mh button{
-  font-size: 13px;
-}
-
-.mh img{
-  width: 40px;
-  margin-top: 50px;
-}
-
-.lpic{
-  display: none;
-}
-
-.cbody{
-  margin: -20px 0 20px -130px;
-  display: flex;
-  flex-direction: column;
-}
-
-.cbodytext p:nth-child(1){
-  margin-bottom: 15px;
-}
-
-.cbodytext p:nth-child(2), p:nth-child(3), p:nth-child(4), p:nth-child(5){
-  display: none;
-}
-
-.footer{
-  margin: 0px -25px 0px -25px;
-  /* width: 100%; */
-}
-
-.footerup, .footerup1{
-  display: flex;
-  flex-direction: column;
-}
-
-.fup1{
-  border-bottom: 1px solid grey;
-  width: 130%;
-  margin-top: 10px;
-}
-
-.fup1 h3, .fup2 h3{
-  font-size: .75rem;
-  line-height: 20px;
-  margin-bottom: 10px;
-}
-
-.fup2{
-  margin-top: 10px;
-}
-
-.fup2 h3{
-  line-height: 30px;
-}
-
-.fup2 p{
-  display: none;
-}
-
-.footerup2{
-  margin-top: 25px;
-  margin-left: -15px;
-}
-
-.footerup2 img{
-  width: 25px;
-}
-
-.footerdown{
-  display: flex;
-  flex-direction: column;
-}
-
-.footerdown1, .footerdown2{
-  display: flex;
-  flex-direction: column;
-}
-
-.footerdown1{
-  margin-left: -5px;
-  margin-top: -35px;
-}
-
-.bxs-location-plus{
-  font-size: 14px;
-  color: #fff;
-  margin-top: 10px;
-  margin-left: -2px;
-}
-
-.bx-copyright{
-  font-size: 12px;
-  color: #fff;
-  margin-left: 0px;
-}
-
-.location, .copyright{
-  display: flex;
-}
-
-.location p{
-  font-size: 12px;
-  margin-left: 7px;
-}
-
-.copyright{
-  margin-top: 5px;
-}
-
-.footerdown2{
-  margin-top: 15px;
-  line-height: 25px;
-  margin-left: -5px;
-}
-
-button {
-  font-size: .6em;
-}
+  }
+
+  .nav2 {
+    display: block;
+    font-family: "Campton", "Montserrat", sans-serif;
+    font-size: 19px;
+    position: fixed;
+    z-index: 999;
+    top: 0;
+    right: 0;
+    transform: translateX(110%);
+    transition: transform 0.5s ease-in-out;
+    /*   width: 100%; */
+    background: hsl(0, 0%, 100%);
+    backdrop-filter: blur(1rem);
+    padding-left: 30px;
+    padding-right: 50px;
+    box-shadow: -1px 3px 12px 5px rgba(250, 250, 250, 0.5);
+  }
+
+  .open-nav {
+    transform: translateX(12%);
+  }
+
+  .close {
+    margin: 0.5em 1em 0 0;
+    cursor: pointer;
+    float: right;
+    font-size: 25px;
+  }
+
+  .nav-texts {
+    margin-top: 3em;
+  }
+
+  .nav-text {
+    margin: 20px 25px 0 0px;
+  }
+
+  .bx-chevron-right {
+    float: right;
+    font-size: 23px;
+    margin-top: -20px;
+  }
+
+  .jordan {
+    display: flex;
+    margin: 2.5em 0 0 0;
+    font-size: 13px;
+    font-weight: 300;
+  }
+
+  .jlogo {
+    width: 17px;
+    height: 17px;
+  }
+
+  .jordan p {
+    margin-left: 15px;
+  }
+
+  .mem {
+    margin: 6em 5em 0 0;
+    font-size: 16px;
+  }
+
+  .mem span {
+    color: grey;
+  }
+
+  .mem button {
+    margin: 30px 7px 0 0;
+    padding: 8px 16px;
+  }
+
+  .mem button:last-of-type {
+    background: none;
+    color: #000;
+    border: 2px solid #ddd;
+  }
+
+  .nav2 .icons {
+    margin-top: 60px;
+    margin-bottom: 150px;
+  }
+
+  .nav2 .icons p {
+    font-size: 13px;
+    font-weight: 300;
+    margin-left: 15px;
+  }
+
+  .iconandtext {
+    margin-top: 20px;
+    display: flex;
+  }
+
+  .iconandtext:last-of-type {
+    margin-left: 3px;
+  }
+
+  .iconandtext .bx-question-mark {
+    font-size: 14px;
+    border: 2px solid black;
+    border-radius: 50px;
+  }
+
+  .landed {
+    margin-top: 3.5em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: -25px;
+    margin-right: -25px;
+    height: 30px;
+  }
+
+  .nikerunners {
+    display: none;
+  }
+
+  .jgif {
+    margin-top: 2em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .njgiphy {
+    height: 15em;
+  }
+
+  h2 {
+    font-size: 2.4em;
+    line-height: 1em;
+  }
+
+  .nshoesrow {
+    width: 100%;
+  }
+
+  .nshoe img {
+    height: 18em;
+  }
+
+  .bpeople {
+    display: block;
+  }
+
+  .tailored-imgs {
+    display: flex;
+    flex-direction: column;
+    padding-right: 0px;
+    width: 100%;
+    margin-top: 10px;
+  }
+
+  .bperson p {
+    bottom: 90px;
+    left: 35px;
+    color: #fff;
+  }
+
+  .bperson button {
+    left: 35px;
+    bottom: 35px;
+    background: #fff;
+    color: #000;
+    font-size: 17px;
+  }
+
+  .discov-imgs {
+    display: flex;
+    flex-direction: column;
+    margin-top: 0.9em;
+  }
+
+  .dis {
+    width: 100%;
+    height: 20em;
+  }
+
+  .dis img {
+    width: 15em;
+  }
+
+  .dis p {
+    margin: 0 0 -30px -20px;
+  }
+
+  .dis button {
+    margin: 0 0 -10px -20px;
+    padding: 10px 15px;
+    font-size: 14px;
+  }
+
+  .bnbtn p {
+    bottom: 50px;
+    left: 45px;
+  }
+
+  .xyz {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+  }
+
+  .mh {
+    width: 100%;
+  }
+
+  .mh p:first-of-type {
+    font-size: 18px;
+    margin-top: 40px;
+  }
+
+  .mh p:last-of-type {
+    font-size: 14px;
+    width: 65%;
+  }
+
+  .mh button {
+    font-size: 13px;
+  }
+
+  .mh img {
+    width: 40px;
+    margin-top: 50px;
+  }
+
+  .lpic {
+    display: none;
+  }
+
+  .cbody {
+    margin: -20px 0 20px -130px;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .cbodytext p:nth-child(1) {
+    margin-bottom: 15px;
+  }
+
+  .cbodytext p:nth-child(2),
+  p:nth-child(3),
+  p:nth-child(4),
+  p:nth-child(5) {
+    display: none;
+  }
+
+  .footer {
+    margin: 0px -25px 0px -25px;
+    /* width: 100%; */
+  }
+
+  .footerup,
+  .footerup1 {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .fup1 {
+    border-bottom: 1px solid grey;
+    width: 130%;
+    margin-top: 10px;
+  }
+
+  .fup1 h3,
+  .fup2 h3 {
+    font-size: 0.75rem;
+    line-height: 20px;
+    margin-bottom: 10px;
+  }
+
+  .fup2 {
+    margin-top: 10px;
+  }
+
+  .fup2 h3 {
+    line-height: 30px;
+  }
+
+  .fup2 p {
+    display: none;
+  }
+
+  .footerup2 {
+    margin-top: 25px;
+    margin-left: -15px;
+  }
+
+  .footerup2 img {
+    width: 25px;
+  }
+
+  .footerdown {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .footerdown1,
+  .footerdown2 {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .footerdown1 {
+    margin-left: -5px;
+    margin-top: -35px;
+  }
+
+  .bxs-location-plus {
+    font-size: 14px;
+    color: #fff;
+    margin-top: 10px;
+    margin-left: -2px;
+  }
+
+  .bx-copyright {
+    font-size: 12px;
+    color: #fff;
+    margin-left: 0px;
+  }
+
+  .location,
+  .copyright {
+    display: flex;
+  }
+
+  .location p {
+    font-size: 12px;
+    margin-left: 7px;
+  }
+
+  .copyright {
+    margin-top: 5px;
+  }
+
+  .footerdown2 {
+    margin-top: 15px;
+    line-height: 25px;
+    margin-left: -5px;
+  }
+
+  button {
+    font-size: 0.6em;
+  }
 }
