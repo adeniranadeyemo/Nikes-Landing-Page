@@ -1,537 +1,526 @@
 <!DOCTYPE html>
 <html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="index.css" />
+    <link
+      href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css"
+      rel="stylesheet"
+    />
 
-<head>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" href="index.css">
-  <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Anton&display=swap"
+      rel="stylesheet"
+    />
 
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Anton&display=swap" rel="stylesheet">
-
-  <!-- <link rel="preconnect" href="https://fonts.googleapis.com">
+    <!-- <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin> -->
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Anton&display=swap" rel="stylesheet">
-  <link
-    href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
-    rel="stylesheet">
-  <title>Nike's HomePage</title>
-</head>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Anton&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+      rel="stylesheet"
+    />
+    <title>Nike's HomePage</title>
+  </head>
 
-<body>
-  <header>
+  <body>
+    <header>
+      <!-- Nav -->
+      <nav>
+        <img src="Assets/jlogo.png" alt="Jordan Logo" />
 
-    <!-- Nav -->
-    <nav>
-      <img src="Assets/jlogo.png" alt="Jordan Logo">
+        <ul class="navul">
+          <a href="#">
+            <li>Help</li>
+          </a>
+          <a href="#">
+            <li>Join Us</li>
+          </a>
+          <a href="#">
+            <li>Sign In</li>
+          </a>
+        </ul>
+      </nav>
+      <!-- Nav ends -->
 
-      <ul class="navul">
-        <a href="#">
-          <li>Help</li>
-        </a>
-        <a href="#">
-          <li>Join Us</li>
-        </a>
-        <a href="#">
-          <li>Sign In</li>
-        </a>
-      </ul>
-    </nav>
-    <!-- Nav ends -->
+      <!-- Newrel -->
+      <div class="newrel">
+        <img src="Assets/nlogo.png" alt="Nike Logo" class="nikelogo" />
 
-    <!-- Newrel -->
-    <div class="newrel">
-      <img src="Assets/nlogo.png" alt="Nike Logo" class="nikelogo">
+        <ul class="newrelul">
+          <li>New Releases</li>
+          <li>Men</li>
+          <li>Women</li>
+          <li>Kids</li>
+          <li>Sales</li>
+          <li>Collections</li>
+        </ul>
 
+        <div class="topicons">
+          <input type="text" name="" value="" placeholder="Search" />
 
-      <ul class="newrelul">
-        <li>New Releases</li>
-        <li>Men</li>
-        <li>Women</li>
-        <li>Kids</li>
-        <li>Sales</li>
-        <li>Collections</li>
-      </ul>
-
-
-      <div class="topicons">
-        <input type="text" name="" value="" placeholder="Search">
-
-        <i class='bx bx-search search'></i>
-        <i class='bx bx-heart heart'></i>
-        <i class='bx bx-shopping-bag bag'></i>
-        <i class='bx bx-menu'></i>
-      </div>
-    </div>
-
-    <div class="nav2">
-      <i class='bx bx-x close'></i>
-
-      <div class="nav-texts">
-
-        <div class="nav-text">
-          <p>New Releases</p>
-          <i class='bx bx-chevron-right'></i>
-        </div>
-
-        <div class="nav-text">
-          <p>Men</p>
-          <i class='bx bx-chevron-right'></i>
-        </div>
-
-        <div class="nav-text">
-          <p>Women</p>
-          <i class='bx bx-chevron-right'></i>
-        </div>
-
-        <div class="nav-text">
-          <p>Kids</p>
-          <i class='bx bx-chevron-right'></i>
-        </div>
-
-        <div class="nav-text">
-          <p>Sale</p>
-          <i class='bx bx-chevron-right'></i>
-        </div>
-
-        <div class="nav-text">
-          <p>Collections</p>
-          <i class='bx bx-chevron-right'></i>
-        </div>
-
-        <div class="jordan">
-          <img src="Assets/jlogo.png" alt="jordan" class="jlogo">
-
-          <p>Jordan</p>
-        </div>
-
-        <div class="mem">
-          <p><span>Become a Nike Member for the best products, inspiration and stories in sport. </span>Learn more </p>
-
-          <button type="button" name="button">Join Us</button>
-
-          <button type="button" name="button">Sign In</button>
-        </div>
-
-        <div class="icons">
-          <div class="iconandtext">
-            <i class='bx bx-shopping-bag'></i>
-            <p>Bag</p>
-          </div>
-
-          <div class="iconandtext">
-            <i class='bx bx-box'></i>
-            <p>Orders</p>
-          </div>
-
-          <div class="iconandtext">
-            <i class='bx bx-question-mark'></i>
-            <p>Help</p>
-          </div>
+          <i class="bx bx-search search"></i>
+          <i class="bx bx-heart heart"></i>
+          <i class="bx bx-shopping-bag bag"></i>
+          <i class="bx bx-menu"></i>
         </div>
       </div>
 
+      <div class="nav2">
+        <i class="bx bx-x close"></i>
 
-    </div>
-
-    <!-- Newrel ends -->
-
-    <!-- Landed -->
-    <div class="landed">
-      <p>Just Landed: The Nike App. <a href="#">Learn More</a></p>
-    </div>
-    <!-- Landed ends -->
-
-    <div class="jgif">
-      <img src="https://thumbs.gfycat.com/MistyGrandioseGalapagosalbatross-max-1mb.gif" alt="" class="njgiphy">
-    </div>
-
-    <img src="Assets/image 1.png" alt="Nike runners" class="nikerunners">
-  </header>
-  <!-- Header ends -->
-
-
-  <!-- Firstaccesss -->
-  <section class="firstaccess">
-    <div class="accesspeg">
-      <p>First Access</p>
-      <h2>NIKE PEGASUS TURBO <br> NEXT NATURE</h2>
-    </div>
-
-    <div class="firstbtns">
-      <button type="button" name="button">Shop Men's</button>
-      <button type="button" name="button">Shop Women's</button>
-    </div>
-  </section>
-  <!-- Firstaccesss ends -->
-
-  <!-- main -->
-  <main>
-    <!-- Gear -->
-    <div class="gear">
-      <p class="btext">Gear Up</p>
-
-      <div class="fandbbtns">
-        <img src="Assets/right.png" alt="left_button" class="lbutton">
-        <img src="Assets/right.png" alt="right_button" class="rbutton">
-      </div>
-    </div>
-    <!-- Gear ends -->
-
-    <!-- Nike shoes first row -->
-    <div class="nshoesrow">
-
-      <div class="nshoe">
-
-        <img src="Assets/Nike 1.png" alt="">
-        <figcaption>
-          <div>
-            <p>Nike React Pegasus Trail 4 GORE-TEX
-            <p>N35, 000</p>
-          </div>
-          <br>
-          <p>Men's Waterproof Trail Running Shoes</p>
-        </figcaption>
-
-      </div>
-
-      <div class="nshoe">
-
-        <img src="Assets/Nike 2.png" alt="">
-        <figcaption>
-          <div>
-            <p>Nike React Pegasus Trail 4 GORE-TEXN</p>
-            <p>35, 000</p>
-          </div>
-          <br>
-          <p>Women's Waterproof Trail Running Shoes</p>
-        </figcaption>
-
-      </div>
-
-      <div class="nshoe">
-
-        <img src="Assets/Nike 3.png" alt="">
-        <figcaption>
-          <div>
-            <p>Nike React Pegasus Turbo Next Nature</p>
-            <p>N35, 000</p>
-          </div>
-          <br>
-          <p>Men's Road Running Shoes</p>
-        </figcaption>
-
-      </div>
-
-      <div class="nshoe">
-
-        <img src="Assets/Nike 4.png" alt="">
-        <figcaption>
-          <div>
-            <p>Nike React Pegasus Turbo Next Nature</p>
-            <p>N35, 000</p>
-          </div>
-          <br>
-          <p>Women's Road Running Running Shoes</p>
-        </figcaption>
-
-      </div>
-    </div>
-    <!-- Nike shoes first row ends-->
-
-    <div class="tailored">
-      <p class="btext">Gear Tailored to You</p>
-
-      <div class="bpeople">
-        <div class="bperson">
-          <img src="Assets/image 2.png" alt="Boy standing">
-          <p>Kid's Styles</p>
-          <button type="button" name="button">Shop</button>
-        </div>
-
-        <div class="tailored-imgs">
-          <div class="bperson">
-            <img src="Assets/image 3.png" alt="Lady sitting">
-            <p>Feautured Women's</p>
-            <button type="button" name="button">Shop</button>
+        <div class="nav-texts">
+          <div class="nav-text">
+            <p>New Releases</p>
+            <i class="bx bx-chevron-right"></i>
           </div>
 
-          <div class="bperson">
-            <img src="Assets/image 4.png" alt="Man sitting">
-            <p>Latest Men's</p>
-            <button type="button" name="button">Shop</button>
+          <div class="nav-text">
+            <p>Men</p>
+            <i class="bx bx-chevron-right"></i>
+          </div>
+
+          <div class="nav-text">
+            <p>Women</p>
+            <i class="bx bx-chevron-right"></i>
+          </div>
+
+          <div class="nav-text">
+            <p>Kids</p>
+            <i class="bx bx-chevron-right"></i>
+          </div>
+
+          <div class="nav-text">
+            <p>Sale</p>
+            <i class="bx bx-chevron-right"></i>
+          </div>
+
+          <div class="nav-text">
+            <p>Collections</p>
+            <i class="bx bx-chevron-right"></i>
+          </div>
+
+          <div class="jordan">
+            <img src="Assets/jlogo.png" alt="jordan" class="jlogo" />
+
+            <p>Jordan</p>
+          </div>
+
+          <div class="mem">
+            <p>
+              <span
+                >Become a Nike Member for the best products, inspiration and
+                stories in sport. </span
+              >Learn more
+            </p>
+
+            <button type="button" name="button">Join Us</button>
+
+            <button type="button" name="button">Sign In</button>
+          </div>
+
+          <div class="icons">
+            <div class="iconandtext">
+              <i class="bx bx-shopping-bag"></i>
+              <p>Bag</p>
+            </div>
+
+            <div class="iconandtext">
+              <i class="bx bx-box"></i>
+              <p>Orders</p>
+            </div>
+
+            <div class="iconandtext">
+              <i class="bx bx-question-mark"></i>
+              <p>Help</p>
+            </div>
           </div>
         </div>
       </div>
 
-    </div>
-    <!-- Tailored ends -->
+      <div class="overlay"></div>
 
+      <!-- Newrel ends -->
 
-    <div class="gear trending">
-      <p>Trending Now</p>
-
-      <div class="fandbbtns">
-        <img src="Assets/right.png" alt="left_button" class="lbtn">
-        <img src="Assets/right.png" alt="right_button" class="rbtn">
+      <!-- Landed -->
+      <div class="landed">
+        <p>Just Landed: The Nike App. <a href="#">Learn More</a></p>
       </div>
-    </div>
+      <!-- Landed ends -->
 
-    <!-- Trending ends -->
-
-    <!-- Nike shoes second row -->
-    <div class="nshoesrow nssr">
-
-      <div class="nshoe ns">
-
-        <img src="Assets/Nike 5.png" alt="">
-        <figcaption>
-          <div>
-            <p>Air Jordan 4 Retro
-            <p>N35, 000</p>
-          </div>
-          <br>
-          <p>Women's Shoes</p>
-        </figcaption>
-
+      <div class="jgif">
+        <img
+          src="https://thumbs.gfycat.com/MistyGrandioseGalapagosalbatross-max-1mb.gif"
+          alt=""
+          class="njgiphy"
+        />
       </div>
 
-      <div class="nshoe">
+      <img src="Assets/image 1.png" alt="Nike runners" class="nikerunners" />
+    </header>
+    <!-- Header ends -->
 
-        <img src="Assets/Nike 6.png" alt="">
-        <figcaption>
-          <div>
-            <p>Air Jordan 1 Low</p>
-            <p>35, 000</p>
-          </div>
-          <br>
-          <p>Older Kid's Shoes</p>
-        </figcaption>
-
-      </div>
-
-      <div class="nshoe">
-
-        <img src="Assets/Nike 7.png" alt="">
-        <figcaption>
-          <div>
-            <p>Nike Air Force 1 Shadow</p>
-            <p>N35, 000</p>
-          </div>
-          <br>
-          <p>Women's Shoes</p>
-        </figcaption>
-
-      </div>
-
-      <div class="nshoe">
-
-        <img src="Assets/Nike 8.png" alt="">
-        <figcaption>
-          <div>
-            <p>Nike Dunk Low</p>
-            <p>N35, 000</p>
-          </div>
-          <br>
-          <p>Older Kids' Shoes</p>
-        </figcaption>
-
-      </div>
-    </div>
-    <!-- Nike shoes second row ends -->
-
-    <div class="dontmiss">
-      <p>Don't Miss</p>
-      <img src="Assets/image 5.png" alt="">
-    </div>
-
+    <!-- Firstaccesss -->
     <section class="firstaccess">
-      <div class="accesspeg flyknit">
-        <p>Nike Air Max Flyknit Racer</p>
-        <h2>10TH ANNIVERSARY <br> EDITION</h2>
-        <p>This is what happens when two icons collide. The Flyknit Racer's Sock-like upper — rotted in performance —
-          meets the <br> modern Air Max Unit </p>
+      <div class="accesspeg">
+        <p>First Access</p>
+        <h2>
+          NIKE PEGASUS TURBO <br />
+          NEXT NATURE
+        </h2>
       </div>
 
       <div class="firstbtns">
-        <button type="button" name="button">Shop Women's</button>
         <button type="button" name="button">Shop Men's</button>
+        <button type="button" name="button">Shop Women's</button>
       </div>
     </section>
+    <!-- Firstaccesss ends -->
 
-    <div class="discov">
-      <p>Discover Our Apps</p>
+    <!-- main -->
+    <main>
+      <!-- Gear -->
+      <div class="gear">
+        <p class="btext">Gear Up</p>
 
-      <div class="discov-imgs">
-        <div class="discov-img1 dis">
+        <div class="fandbbtns">
+          <img src="Assets/right.png" alt="left_button" class="lbutton" />
+          <img src="Assets/right.png" alt="right_button" class="rbutton" />
+        </div>
+      </div>
+      <!-- Gear ends -->
 
-          <img src="Assets/image 6.png" alt="Nike model standing by a wall">
-          <p>Learn More</p>
-          <button type="button" name="button">Learn More</button>
+      <!-- Nike shoes first row -->
+      <div class="nshoesrow">
+        <div class="nshoe">
+          <img src="Assets/Nike 1.png" alt="" />
+          <figcaption>
+            <div>
+              <p>Nike React Pegasus Trail 4 GORE-TEX</p>
+              <p>N35, 000</p>
+            </div>
+            <br />
+            <p>Men's Waterproof Trail Running Shoes</p>
+          </figcaption>
+        </div>
 
-          <div class="wnbtn">
-            <img src="Assets/nlogo.png" alt="Nike logo" class="bnikelogo">
+        <div class="nshoe">
+          <img src="Assets/Nike 2.png" alt="" />
+          <figcaption>
+            <div>
+              <p>Nike React Pegasus Trail 4 GORE-TEXN</p>
+              <p>35, 000</p>
+            </div>
+            <br />
+            <p>Women's Waterproof Trail Running Shoes</p>
+          </figcaption>
+        </div>
+
+        <div class="nshoe">
+          <img src="Assets/Nike 3.png" alt="" />
+          <figcaption>
+            <div>
+              <p>Nike React Pegasus Turbo Next Nature</p>
+              <p>N35, 000</p>
+            </div>
+            <br />
+            <p>Men's Road Running Shoes</p>
+          </figcaption>
+        </div>
+
+        <div class="nshoe">
+          <img src="Assets/Nike 4.png" alt="" />
+          <figcaption>
+            <div>
+              <p>Nike React Pegasus Turbo Next Nature</p>
+              <p>N35, 000</p>
+            </div>
+            <br />
+            <p>Women's Road Running Running Shoes</p>
+          </figcaption>
+        </div>
+      </div>
+      <!-- Nike shoes first row ends-->
+
+      <div class="tailored">
+        <p class="btext">Gear Tailored to You</p>
+
+        <div class="bpeople">
+          <div class="bperson">
+            <img src="Assets/image 2.png" alt="Boy standing" />
+            <p>Kid's Styles</p>
+            <button type="button" name="button">Shop</button>
+          </div>
+
+          <div class="tailored-imgs">
+            <div class="bperson">
+              <img src="Assets/image 3.png" alt="Lady sitting" />
+              <p>Feautured Women's</p>
+              <button type="button" name="button">Shop</button>
+            </div>
+
+            <div class="bperson">
+              <img src="Assets/image 4.png" alt="Man sitting" />
+              <p>Latest Men's</p>
+              <button type="button" name="button">Shop</button>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- Tailored ends -->
+
+      <div class="gear trending">
+        <p>Trending Now</p>
+
+        <div class="fandbbtns">
+          <img src="Assets/right.png" alt="left_button" class="lbtn" />
+          <img src="Assets/right.png" alt="right_button" class="rbtn" />
+        </div>
+      </div>
+
+      <!-- Trending ends -->
+
+      <!-- Nike shoes second row -->
+      <div class="nshoesrow nssr">
+        <div class="nshoe ns">
+          <img src="Assets/Nike 5.png" alt="" />
+          <figcaption>
+            <div>
+              <p>Air Jordan 4 Retro</p>
+              <p>N35, 000</p>
+            </div>
+            <br />
+            <p>Women's Shoes</p>
+          </figcaption>
+        </div>
+
+        <div class="nshoe">
+          <img src="Assets/Nike 6.png" alt="" />
+          <figcaption>
+            <div>
+              <p>Air Jordan 1 Low</p>
+              <p>35, 000</p>
+            </div>
+            <br />
+            <p>Older Kid's Shoes</p>
+          </figcaption>
+        </div>
+
+        <div class="nshoe">
+          <img src="Assets/Nike 7.png" alt="" />
+          <figcaption>
+            <div>
+              <p>Nike Air Force 1 Shadow</p>
+              <p>N35, 000</p>
+            </div>
+            <br />
+            <p>Women's Shoes</p>
+          </figcaption>
+        </div>
+
+        <div class="nshoe">
+          <img src="Assets/Nike 8.png" alt="" />
+          <figcaption>
+            <div>
+              <p>Nike Dunk Low</p>
+              <p>N35, 000</p>
+            </div>
+            <br />
+            <p>Older Kids' Shoes</p>
+          </figcaption>
+        </div>
+      </div>
+      <!-- Nike shoes second row ends -->
+
+      <div class="dontmiss">
+        <p>Don't Miss</p>
+        <img src="Assets/image 5.png" alt="" />
+      </div>
+
+      <section class="firstaccess">
+        <div class="accesspeg flyknit">
+          <p>Nike Air Max Flyknit Racer</p>
+          <h2>
+            10TH ANNIVERSARY <br />
+            EDITION
+          </h2>
+          <p>
+            This is what happens when two icons collide. The Flyknit Racer's
+            Sock-like upper — rotted in performance — meets the <br />
+            modern Air Max Unit
+          </p>
+        </div>
+
+        <div class="firstbtns">
+          <button type="button" name="button">Shop Women's</button>
+          <button type="button" name="button">Shop Men's</button>
+        </div>
+      </section>
+
+      <div class="discov">
+        <p>Discover Our Apps</p>
+
+        <div class="discov-imgs">
+          <div class="discov-img1 dis">
+            <img src="Assets/image 6.png" alt="Nike model standing by a wall" />
+            <p>Learn More</p>
+            <button type="button" name="button">Learn More</button>
+
+            <div class="wnbtn">
+              <img src="Assets/nlogo.png" alt="Nike logo" class="bnikelogo" />
+            </div>
+          </div>
+
+          <div class="discov-img2 dis">
+            <img src="Assets/image 7.png" alt="Nike model walking" />
+            <p>Nike Run Club</p>
+            <button type="button" name="button">Learn More</button>
+
+            <div class="bnbtn">
+              <img
+                src="Assets/wnikelogo.png"
+                class="wnikelogo"
+                alt="Nike Logo"
+              />
+              <p>NRC</p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="join-us">
+        <p>Join Us</p>
+
+        <div class="xyz">
+          <div class="mh">
+            <p>MEMBER HIGHLIGHTS</p>
+            <p>Find out what's happening in the world of Nike Memebership</p>
+            <button type="button" name="button" class="lm">Learn More</button>
+
+            <img src="Assets/QR code.png" alt="qr-code" />
+          </div>
+
+          <div class="lpic">
+            <img src="Assets/image 8.png" alt="People celebrating" />
+          </div>
+        </div>
+      </div>
+
+      <div class="clothing-bottom">
+        <div class="cbody">
+          <div class="cbodytext">
+            <p>Shoes</p>
+            <p>Sneakers</p>
+            <p>Football Boots</p>
+            <p>Running Shoes</p>
+            <p>Netball Sneakers</p>
+          </div>
+
+          <div class="cbodytext">
+            <p>Clothing</p>
+            <p>All Clothing</p>
+            <p>Tops</p>
+            <p>Trousers and Leggings</p>
+            <p>Tracksuits</p>
+          </div>
+
+          <div class="cbodytext">
+            <p>Kid's</p>
+            <p>Kid's Sneakers</p>
+            <p>Kid's Backpacks</p>
+            <p>Kid's Football Boots</p>
+            <p>Kid's Running</p>
+          </div>
+
+          <div class="cbodytext">
+            <p>Featured</p>
+            <p>New Releases</p>
+            <p>Backpacks and Bags</p>
+            <p>Footballs</p>
+            <p>Goalkeepers Gloves</p>
+          </div>
+        </div>
+      </div>
+    </main>
+
+    <div class="footer">
+      <div class="footerup">
+        <div class="footerup1">
+          <div class="fup1">
+            <h3>FIND A STORE</h3>
+            <h3>NIKE JOURNAL</h3>
+            <h3>BECOME A MEMBER</h3>
+            <h3>FEEDBACK</h3>
+            <h3>PROMO CODES</h3>
+          </div>
+
+          <div class="fup2">
+            <h3>GET HELP</h3>
+            <p>Order Status</p>
+            <p>Shipping and Delivery</p>
+            <p>Returns</p>
+            <p>Payment Options</p>
+            <p>Contact Us</p>
+          </div>
+
+          <div class="fup2">
+            <h3>ABOUT NIKE</h3>
+            <p>News</p>
+            <p>Careers</p>
+            <p>Investored</p>
+            <p>Sustainability</p>
+          </div>
+
+          <div class="fup2">
+            <h3>NIKE APPS</h3>
+            <p>Nike App</p>
+            <p>Nike Run Club</p>
+            <p>Nike Training Club</p>
+            <p>SNKRS</p>
           </div>
         </div>
 
-        <div class="discov-img2 dis">
-          <img src="Assets/image 7.png" alt="Nike model walking">
-          <p>Nike Run Club</p>
-          <button type="button" name="button">Learn More</button>
+        <div class="footerup2">
+          <img src="Assets/twitter.png" alt="Twitter logo" />
+          <img src="Assets/facebook.png" alt="Facebook logo" />
+          <img src="Assets/youtube.png" alt="YouTube logo" />
+          <img src="Assets/instagram.png" alt="Instagram logo" />
+        </div>
+      </div>
 
-          <div class="bnbtn">
-            <img src="Assets/wnikelogo.png" class="wnikelogo" alt="Nike Logo">
-            <p>NRC</p>
+      <div class="footerdown">
+        <div class="footerdown1">
+          <div class="location">
+            <i class="bx bxs-location-plus"></i>
+            <p>Nigeria</p>
+          </div>
+
+          <div class="copyright">
+            <i class="bx bx-copyright"></i>
+            <p>2022 Nike, Inc. All Right Reserved</p>
           </div>
         </div>
 
-      </div>
-    </div>
-
-    <div class="join-us">
-      <p>Join Us</p>
-
-      <div class="xyz">
-        <div class="mh">
-          <p>MEMBER HIGHLIGHTS</p>
-          <p>Find out what's happening in the world of Nike Memebership</p>
-          <button type="button" name="button" class="lm">Learn More</button>
-
-          <img src="Assets/QR code.png" alt="qr-code">
-        </div>
-
-        <div class="lpic">
-          <img src="Assets/image 8.png" alt="People celebrating">
+        <div class="footerdown2">
+          <p>Guides</p>
+          <p>Terms of Use</p>
+          <p>Terms of Sale</p>
+          <p>Company Details</p>
+          <p>Privacy & Cookie Policy</p>
+          <p>Cookie Settings</p>
         </div>
       </div>
     </div>
+  </body>
 
-    <div class="clothing-bottom">
-
-      <div class="cbody">
-        <div class="cbodytext">
-          <p>Shoes</p>
-          <p>Sneakers</p>
-          <p>Football Boots</p>
-          <p>Running Shoes</p>
-          <p>Netball Sneakers</p>
-        </div>
-
-        <div class="cbodytext">
-          <p>Clothing</p>
-          <p>All Clothing</p>
-          <p>Tops</p>
-          <p>Trousers and Leggings</p>
-          <p>Tracksuits</p>
-        </div>
-
-        <div class="cbodytext">
-          <p>Kid's</p>
-          <p>Kid's Sneakers</p>
-          <p>Kid's Backpacks</p>
-          <p>Kid's Football Boots</p>
-          <p>Kid's Running</p>
-        </div>
-
-        <div class="cbodytext">
-          <p>Featured</p>
-          <p>New Releases</p>
-          <p>Backpacks and Bags</p>
-          <p>Footballs</p>
-          <p>Goalkeepers Gloves</p>
-        </div>
-      </div>
-    </div>
-  </main>
-
-  <div class="footer">
-
-    <div class="footerup">
-
-      <div class="footerup1">
-
-        <div class="fup1">
-          <h3>FIND A STORE</h3>
-          <h3>NIKE JOURNAL</h3>
-          <h3>BECOME A MEMBER</h3>
-          <h3>FEEDBACK</h3>
-          <h3>PROMO CODES</h3>
-        </div>
-
-        <div class="fup2">
-          <h3>GET HELP</h3>
-          <p>Order Status</p>
-          <p>Shipping and Delivery</p>
-          <p>Returns</p>
-          <p>Payment Options</p>
-          <p>Contact Us</p>
-        </div>
-
-
-        <div class="fup2">
-          <h3>ABOUT NIKE</h3>
-          <p>News</p>
-          <p>Careers</p>
-          <p>Investored</p>
-          <p>Sustainability</p>
-        </div>
-
-
-        <div class="fup2">
-          <h3>NIKE APPS</h3>
-          <p>Nike App</p>
-          <p>Nike Run Club</p>
-          <p>Nike Training Club</p>
-          <p>SNKRS</p>
-        </div>
-      </div>
-
-      <div class="footerup2">
-        <img src="Assets/twitter.png" alt="Twitter logo">
-        <img src="Assets/facebook.png" alt="Facebook logo">
-        <img src="Assets/youtube.png" alt="YouTube logo">
-        <img src="Assets/instagram.png" alt="Instagram logo">
-      </div>
-
-    </div>
-
-    <div class="footerdown">
-
-      <div class="footerdown1">
-
-        <div class="location">
-          <i class='bx bxs-location-plus'></i>
-          <p>Nigeria</p>
-        </div>
-
-        <div class="copyright">
-          <i class='bx bx-copyright'></i>
-          <p>2022 Nike, Inc. All Right Reserved</p>
-        </div>
-
-      </div>
-
-      <div class="footerdown2">
-        <p>Guides</p>
-        <p>Terms of Use</p>
-        <p>Terms of Sale</p>
-        <p>Company Details</p>
-        <p>Privacy & Cookie Policy</p>
-        <p>Cookie Settings</p>
-      </div>
-
-    </div>
-
-  </div>
-
-
-</body>
-
-<script src="https://unpkg.com/boxicons@2.1.4/dist/boxicons.js"></script>
-<script src="index.js"></script>
-
+  <script src="https://unpkg.com/boxicons@2.1.4/dist/boxicons.js"></script>
+  <script src="index.js"></script>
 </html>

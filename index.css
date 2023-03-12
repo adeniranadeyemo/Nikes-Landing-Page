@@ -10,7 +10,7 @@ body {
 }
 
 nav {
-  font-family: "Campton", "Montserrat", sans-serif;
+  font-family: 'Campton', 'Montserrat', sans-serif;
   font-size: 0.813em;
   display: flex;
   justify-content: space-between;
@@ -47,7 +47,7 @@ nav img {
   justify-content: space-between;
   padding: 1.25em 0em;
   margin: 0px auto;
-  font-family: "Campton", "Montserrat", sans-serif;
+  font-family: 'Campton', 'Montserrat', sans-serif;
   font-size: 0.938em;
 }
 
@@ -79,7 +79,7 @@ input {
   padding-top: 2px;
 }
 
-input[type="text"]::placeholder {
+input[type='text']::placeholder {
   color: #ddd;
 }
 
@@ -98,7 +98,7 @@ input[type="text"]::placeholder {
 }
 
 .landed {
-  font-family: "Campton", "Montserrat", sans-serif;
+  font-family: 'Campton', 'Montserrat', sans-serif;
   background: #f2f2f2;
   color: #000;
   font-size: 0.6em;
@@ -133,12 +133,12 @@ input[type="text"]::placeholder {
 }
 
 .accesspeg p {
-  font-family: "Campton", "Montserrat", sans-serif;
+  font-family: 'Campton', 'Montserrat', sans-serif;
   font-size: 0.938em;
 }
 
 h2 {
-  font-family: "Anton", "Bebas Neue", sans-serif;
+  font-family: 'Anton', 'Bebas Neue', sans-serif;
   font-size: 4em;
   line-height: 62px;
   margin-top: 5px;
@@ -167,7 +167,7 @@ main {
 }
 
 .gear p {
-  font-family: "Campton", "Montserrat", sans-serif;
+  font-family: 'Campton', 'Montserrat', sans-serif;
   font-weight: 500;
   font-size: 1.1rem;
 }
@@ -236,7 +236,7 @@ figcaption {
   margin-top: 0.938em;
   display: flex;
   flex-direction: column;
-  font-family: "Campton", "Montserrat", sans-serif;
+  font-family: 'Campton', 'Montserrat', sans-serif;
   font-size: 0.7em;
 }
 
@@ -255,7 +255,7 @@ figcaption > p {
 }
 
 .tailored {
-  font-family: "Campton", "Montserrat", sans-serif;
+  font-family: 'Campton', 'Montserrat', sans-serif;
   margin-right: auto;
   margin-left: auto;
   margin-top: 100px;
@@ -317,7 +317,7 @@ figcaption > p {
 
 .dontmiss {
   margin-top: 100px;
-  font-family: "Campton", "Montserrat", sans-serif;
+  font-family: 'Campton', 'Montserrat', sans-serif;
   font-size: 1.45em;
   font-weight: 500;
   display: flex;
@@ -349,7 +349,7 @@ h2 {
 .discov > p {
   font-size: 1.1rem;
   font-weight: 500;
-  font-family: "Campton", "Montserrat", sans-serif;
+  font-family: 'Campton', 'Montserrat', sans-serif;
 }
 
 .discov-imgs {
@@ -377,7 +377,7 @@ h2 {
 
 .dis {
   position: relative;
-  font-family: "Campton", "Montserrat", sans-serif;
+  font-family: 'Campton', 'Montserrat', sans-serif;
 }
 
 .dis p {
@@ -429,7 +429,7 @@ h2 {
 .bnbtn p {
   bottom: 21px;
   left: 25px;
-  font-family: "Anton", "Bebas Neue", sans-serif;
+  font-family: 'Anton', 'Bebas Neue', sans-serif;
   font-weight: lighter;
 }
 
@@ -438,7 +438,7 @@ h2 {
 }
 
 .join-us > p {
-  font-family: "Campton", "Montserrat", sans-serif;
+  font-family: 'Campton', 'Montserrat', sans-serif;
   font-size: 23px;
   font-weight: 500;
 }
@@ -451,7 +451,7 @@ h2 {
 
 .mh {
   background: #f0eadc;
-  font-family: "Campton", "Montserrat", sans-serif;
+  font-family: 'Campton', 'Montserrat', sans-serif;
   padding: 40px 30px 0px 40px;
   position: relative;
   width: 50%;
@@ -492,7 +492,7 @@ button:hover {
 }
 
 .clothing-bottom {
-  font-family: "Campton", "Montserrat", sans-serif;
+  font-family: 'Campton', 'Montserrat', sans-serif;
   margin-top: 80px;
   display: flex;
   /* flex-direction: column; */
@@ -535,7 +535,7 @@ button:hover {
 }
 
 .fup1 h3 {
-  font-family: "Antonio", "Bebas Neue", sans-serif;
+  font-family: 'Antonio', 'Bebas Neue', sans-serif;
   font-size: 0.75rem;
   font-weight: 600;
   line-height: 35.5px;
@@ -543,14 +543,14 @@ button:hover {
 }
 
 .fup2 h3 {
-  font-family: "Antonio", "Bebas Neue", sans-serif;
+  font-family: 'Antonio', 'Bebas Neue', sans-serif;
   font-weight: 600;
   font-size: 0.75rem;
   color: #fff;
 }
 
 .fup2 p {
-  font-family: "Campton", "Montserrat", sans-serif;
+  font-family: 'Campton', 'Montserrat', sans-serif;
   font-size: 0.5rem;
   color: grey;
   margin-top: 14px;
@@ -570,7 +570,7 @@ button:hover {
   justify-content: space-between;
   padding: 0px 5px;
   margin-top: 50px;
-  font-family: "Campton", "Montserrat", sans-serif;
+  font-family: 'Campton', 'Montserrat', sans-serif;
   color: grey;
   font-size: 0.5rem;
 }
@@ -622,6 +622,10 @@ button:hover {
 }
 
 .nav2 {
+  display: none;
+}
+
+.overlay {
   display: none;
 }
 
@@ -695,7 +699,7 @@ button:hover {
 
   .nav2 {
     display: block;
-    font-family: "Campton", "Montserrat", sans-serif;
+    font-family: 'Campton', 'Montserrat', sans-serif;
     font-size: 19px;
     position: fixed;
     z-index: 999;
@@ -708,11 +712,28 @@ button:hover {
     backdrop-filter: blur(1rem);
     padding-left: 30px;
     padding-right: 50px;
-    box-shadow: -1px 3px 12px 5px rgba(250, 250, 250, 0.5);
+  }
+
+  .overlay {
+    display: block;
+    position: fixed;
+    top: 0;
+    right: 0;
+    height: 100vh;
+    width: 100%;
+    transform: translateX(130%);
+    transition: transform 0.5s ease-in-out;
+    z-index: 5;
+    /*    background: hsl(0, 0%, 100%);*/
+    backdrop-filter: blur(0.5rem);
   }
 
   .open-nav {
     transform: translateX(12%);
+  }
+
+  .open-overlay {
+    transform: translateX(0%);
   }
 
   .close {
