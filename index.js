@@ -1,19 +1,15 @@
 const body = document.querySelector('body');
 //
 const nikeShoesCon = document.querySelector('.nshoesrow');
-const carouselInner = document.querySelector('.carousel-inner');
+const carousels = document.querySelectorAll('.carousel-inner');
 const nikeShoes = document.querySelectorAll('.nshoe');
 const prevButtons = document.querySelectorAll('.lbutton');
 const nextButtons = document.querySelectorAll('.rbutton');
-const carousels = document.querySelectorAll('.carousel-inner');
 //
+const carouselsArray = Array.from(carousels);
 const nikeShoesArray = Array.from(nikeShoes);
 const prevButtonsArray = Array.from(prevButtons);
 const nextButtonsArray = Array.from(nextButtons);
-const carouselsArray = Array.from(carousels);
-//
-const nShoes = document.querySelector('.nssr');
-const nShoe = document.querySelector('.ns');
 //
 const menu = document.querySelector('.bx-menu');
 const close = document.querySelector('.close');

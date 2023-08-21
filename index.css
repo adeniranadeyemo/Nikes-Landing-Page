@@ -5,8 +5,9 @@
 }
 
 body {
-  background: #fff;
-  padding: 0px 50px 20px 50px;
+  background: #ffffff;
+  margin: 0 auto;
+  padding-inline: 1rem;
 }
 
 nav {
@@ -201,9 +202,13 @@ main {
   /* display: none; */
 }
 
-::-webkit-scrollbar-thumb {
+::-webkit-scrollbar-thumb:horizontal {
   background: #39393a;
   border-radius: 10px;
+}
+
+::-webkit-scrollbar-thumb:vertical {
+  display: none;
 }
 
 /* ::-webkit-scrollbar-track {
@@ -522,7 +527,7 @@ button:hover {
 
 .footer {
   background: #0f0a05;
-  margin: 65px -50px 0px -50px;
+  margin: 1rem -2rem 0;
   padding: 4% 6% 2%;
 }
 
