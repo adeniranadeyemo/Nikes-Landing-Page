@@ -184,10 +184,13 @@ main {
 }
 
 .nshoesrow {
+  overflow-x: hidden;
+}
+
+.carousel-inner {
   display: flex;
-  gap: 13px;
-  margin-top: 10px;
-  margin-right: -20px;
+  gap: 0.7rem;
+  margin-top: 0.5rem;
   overflow-x: scroll;
   scroll-behavior: smooth;
 }
